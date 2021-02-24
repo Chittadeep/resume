@@ -1,0 +1,10 @@
+nav{
+    float: top;
+    width: max-content;
+    background-color: gray;
+    height: 5cm;
+}
+
+h1{
+    text-align: center;
+}
