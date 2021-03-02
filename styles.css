@@ -1,10 +1,26 @@
+
 nav{
     float: top;
-    width: max-content;
+    orientation: landscape;
+    width: fill;
+    height:min-content;
     background-color: gray;
-    height: 5cm;
+    text-align: end;
+    color: black;
+    font-size: x-large;
 }
 
-h1{
-    text-align: center;
+img{
+    float: right;
 }
+
+nav a{
+    color: black;
+}
+
+nav h1{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+
