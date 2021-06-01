@@ -1,26 +1,28 @@
+*{
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 nav{
-    float: top;
-    orientation: landscape;
-    width: fill;
-    height:min-content;
+    display:flex;
+    flex-wrap: wrap;
     background-color: gray;
-    text-align: end;
     color: black;
     font-size: x-large;
+    justify-content: space-between;
+    align-items: center;
 }
 
-img{
-    float: right;
-}
-
-nav a{
-    color: black;
-}
 
 nav h1{
-    text-align: left;
-    font-size: xx-large;
+    margin-right: 40%;
     
 }
 
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
