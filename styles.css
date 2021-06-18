@@ -1,8 +1,9 @@
 *{
     padding: 1%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 
@@ -18,11 +19,21 @@ nav{
 
 
 nav h1{
-    margin-right: 40%;
+    margin-right: 30%;
     
 }
 
-div{
+nav a:link{
+    color:white;
+}
+
+.about {
     display: flex;
     flex-wrap: wrap;
 }
+
+.handles{
+    display: flex;
+    justify-content: space-around;
+}
+
