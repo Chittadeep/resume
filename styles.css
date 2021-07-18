@@ -1,8 +1,6 @@
 *{
     padding: 1%;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+   
     margin: auto;
 }
 
@@ -37,3 +35,16 @@ nav a:link{
     justify-content: space-around;
 }
 
+.skills{
+    padding-left: 0%;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: min-content;
+    
+}
