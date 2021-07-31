@@ -1,6 +1,6 @@
 *{
     padding: 1%;
-   
+    
     margin: auto;
 }
 
@@ -46,5 +46,13 @@ nav a:link{
 
 .card{
     width: min-content;
-    
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.5);
+  }
+
+.projects-container a{
+    color: white;
 }
